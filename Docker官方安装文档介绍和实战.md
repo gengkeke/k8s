@@ -2,7 +2,7 @@
     - 操作系统 Centos 7.x
     - docker版本: Server Version: 18.09.9
 - 2.2 安装步骤
-    - 进入官网,下载指定版本的docker安装包.
+    - 进入官网,下载指定版本的docker安装包. https://docs.docker.com/engine/install/centos/
       collapsed:: true
         - 官网地址: https://www.docker.com
         - ![image-20220328211018117](https://tva1.sinaimg.cn/large/e6c9d24ely1h0pwk7xkuzj21nh0u0tcs.jpg)
