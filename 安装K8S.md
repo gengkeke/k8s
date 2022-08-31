@@ -315,7 +315,7 @@ systemctl enable kubelet && systemctl start kubelet
 kubeadm init --kubernetes-version=1.18.0  \
 --apiserver-advertise-address=192.168.168.11   \
 --image-repository registry.aliyuncs.com/google_containers  \
---service-cidr=10.10.0.0/16 --pod-network-cidr=10.122.0.0/16
+--service-cidr=10.10.0.0/16 --pod-network-cidr=10.244.0.0/16
 ~~~
 
 根据提示创建kubectl
